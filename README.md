@@ -77,11 +77,6 @@ Here's a list of the API endpoints:
 *   **POST `/api/movie`**
     *   Creates a new movie entry.
     *   Request body: `JSON object` with a "movie" (string) key.
-      ```json
-          {
-           "movie": "Movie Title"
-          }
-      ```
     *   Response: The created `movie` object in JSON format.
 *   **PUT `/api/movie/{id}`**
     *   Marks a movie with the given `id` as watched.
