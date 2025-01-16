@@ -29,7 +29,7 @@ This project provides a simple RESTful API for managing a list of movies, includ
 
 ### Prerequisites
 
-*   **Go:** Make sure you have Go installed on your system (version 1.23.4 or later as per the `go.mod` file).
+*   **Go:** Make sure you have Go installed on your system as per go.mod file.
 *   **MongoDB:** You need a MongoDB instance running. You can use a local instance or a cloud service like MongoDB Atlas.
 *   **Git:** Git is required for cloning the repository.
 
@@ -52,7 +52,7 @@ This project provides a simple RESTful API for managing a list of movies, includ
 
 1.  **Set up MongoDB connection:**
     *   Ensure your MongoDB instance is running and accessible.
-    *   **Important:** Replace the placeholder connection string in `controller/controller.go` with your actual MongoDB connection string:
+    *   **Important:** Replace the placeholder connectionstring in `controller/controller.go` with your actual MongoDB connection string:
           ```go
            const connectionString = "mongodb+srv://your-username:your-password@your-cluster-url/?retryWrites=true&w=majority&appName=Cluster0"
           ```
